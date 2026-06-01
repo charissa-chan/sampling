@@ -40,22 +40,22 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: 1
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to assess factors affecting job satisfaction of entry and lower level employees. It aims to pinpoint primary reasons for the high employee turnover rate within the company and to identify areas of improvement to increase overall rate of employee retention.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+The target population of this survey is all employees in the company. While the turnover rate is particularly rampant among entry and lower level employees, the survey cannot target them exclusively, as this approach might lead to alarm and less accurate responses. 
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
+1. Which department are you from?
+2. How many years have you been with the company?
 3. write your question here...
 4. write your question here...
 5. write your question here...
@@ -71,7 +71,22 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type: cross-sectional design sample
+2. Sample size: field sample of approx 50,000 units, 40,000 invitations to electronic questionnaires sent, with expected completion of 24,000 questionnaires.
+3. Target population: all persons 15 years of age and older living in the ten provinces of Canada, excluding full-time residents of institutions (full-time defined as residing longer than 6 months)
+4. Sampling frame: landline and cellular phone numbers from Census and other administrative sources with Statistics Canada's dwelling frame
+5. Survey mode(s): electronic questionnaire (EQ) or CATI (computer assisted telephone interviewing), in the official language of respondent choice (Eng or Fr). No proxies allowed
+6. Timeline: Data collection occured between Sept. 4, 2018 to Dec. 28, 2018, with data processing afterwards until initial findings released June 2020.
+7. Response rate: 41.9%
+8. Weights: person-level weighting factor used for analysis, as well as bootstrapped weights for design-based variance estimation
+9. Data processing: done using SSPE set of generalized processing steps and utilities
+10. Cleaning, imputation, etc: automatic and manual edits performed at various stages of processing at macro and micro levels, including gamily, consistency and flow edits. Consistency of survey data esured by various checks such as matching respondent age to birth date. Error detection done through edits programmed into CATI system, which also identified responses outside range values during the interview and enabled immediate resolution with respondent. Imputation done by using donor records selected by score function, with mean imputation being used when donor imputation was not possible. Imputation done in nine steps, beginning with imputing personal/family income, moving to imputing formal volunterring variables (three steps), imputing informal volunterring variables (two steps), and finally, imputing dolnation file variables and solicitation methods (three steps).
+11. Sources of error: sampling error mitigated with bootstrapping, which was used to estimate sampling variability, with significant differences between subgroups at 95% confidence level. Non-sampling error due to imperfect coverage (households without telephones and households with phone service not covered by frame) and non-response. Non-response bias reduced by adjustments to survey weights. Some response erros and processing errors can also exist.
+12. Limitations, known biases, etc: excludes institutions and territories, has non-response bias.
+13. Link to documentation and any additional sources used: 
+https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
+https://www150.statcan.gc.ca/n1/en/catalogue/45250011
+https://www150.statcan.gc.ca/n1/daily-quotidien/210126/dq210126h-eng.htm
 ```
 
 ## Rubric
