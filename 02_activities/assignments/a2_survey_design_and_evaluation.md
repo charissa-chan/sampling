@@ -40,30 +40,42 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: 1
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to assess factors affecting job satisfaction of entry and lower level employees. It aims to pinpoint primary reasons for the high employee turnover rate within the company and to identify areas of improvement to increase overall rate of employee retention.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+The target population of this survey is all employees in the company. 
+The sampling frame is the company's employee email list. 
+The sampling unit is the individual employee.
+The observational unit is also the individual employee.
+
+While the turnover rate is particularly rampant among entry and lower level employees, the survey cannot target them exclusively, as this approach might lead to alarm and less accurate responses. Focusing only on these employees can also result in bias that obscures bigger picture patterns affecting employee satisfaction throughout the company.
+
+This survey will be administered digitally, and all employees will be invited to complete the survey via their company email. Responses will be anonymized to alleviate potential employee concerns about professional retaliation. 
+
+To minimize non-response and encourage survey completion, this survey will employ a 10-point rating-scale, asking employees to rate each statement, where 1 indicates a low level of characteristic being assessed and 10 indicates a high level of the characteristic being assessed. This straightforward response format will minimize effort required to answer each question. 
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. Which department are you from?
+2. How many years have you been with the company?
+
+Rate each statement below on a scale from 1-10, with 1 indicating a low level of agreement with the statement, and 10 indicating a high level of agreement with the statement.
+
+3. This office offers a friendly and supportive environment.
+4. My supervisor provides the support and guidance I need. 
+5. This company provides opportunities for professional growth and advancement.
+6. Given my workload and responsibilities, the compensation I receive is fair.
+7. I see myself working here in 1 year.
+
+(Optional, open-ended question)
+8. What factors most influence your decision to continue working at this company?
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +83,22 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type: cross-sectional design sample
+2. Sample size: field sample of approx 50,000 units, 40,000 invitations to electronic questionnaires sent, with expected completion of 24,000 questionnaires.
+3. Target population: all persons 15 years of age and older living in the ten provinces of Canada, excluding full-time residents of institutions (full-time defined as residing longer than 6 months)
+4. Sampling frame: landline and cellular phone numbers from Census and other administrative sources with Statistics Canada's dwelling frame
+5. Survey mode(s): electronic questionnaire (EQ) or CATI (computer assisted telephone interviewing), in the official language of respondent choice (Eng or Fr). No proxies allowed
+6. Timeline: Data collection occured between Sept. 4, 2018 to Dec. 28, 2018, with data processing afterwards until initial findings released June 2020.
+7. Response rate: 41.9%
+8. Weights: person-level weighting factor used for analysis, as well as bootstrapped weights for design-based variance estimation
+9. Data processing: done using SSPE set of generalized processing steps and utilities
+10. Cleaning, imputation, etc: automatic and manual edits performed at various stages of processing at macro and micro levels, including family, consistency and flow edits. Consistency of survey data esured by various checks such as matching respondent age to birth date. Error detection done through edits programmed into CATI system, which also identified responses outside range values during the interview and enabled immediate resolution with respondent. Imputation done by using donor records selected by score function, with mean imputation being used when donor imputation was not possible. Imputation done in nine steps, beginning with imputing personal/family income, moving to imputing formal volunterring variables (three steps), imputing informal volunterring variables (two steps), and finally, imputing dolnation file variables and solicitation methods (three steps).
+11. Sources of error: sampling error mitigated with bootstrapping, which was used to estimate sampling variability, with significant differences between subgroups at 95% confidence level. Non-sampling error due to imperfect coverage (households without telephones and households with phone service not covered by frame) and non-response. Non-response bias reduced by adjustments to survey weights. Some response erros and processing errors can also exist.
+12. Limitations, known biases, etc: excludes institutions and territories, has non-response bias.
+13. Link to documentation and any additional sources used: 
+https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234
+https://www150.statcan.gc.ca/n1/en/catalogue/45250011
+https://www150.statcan.gc.ca/n1/daily-quotidien/210126/dq210126h-eng.htm
 ```
 
 ## Rubric
